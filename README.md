@@ -1,8 +1,4 @@
 
-> [!WARNING]
-> Deprecation Notice: This integration will not receive any further updates as i no longer have access to a SMA Data Manager to test with.
-
-
 # SMA Data Manager
 
 [![GitHub Release][releases-shield]][releases]
@@ -20,7 +16,7 @@ _Integration to integrate with the [SMA Data Manager][sma_data_manager]._
 
 ## HACS (recommended)
 
-1. Add `https://github.com/shadow578/homeassistant_sma_data_manager` as a custom repository, choose `Integration` as Category and add.
+1. Add `https://github.com/thorsten/homeassistant_sma_data_manager` as a custom repository, choose `Integration` as Category and add.
 2. In the HACS UI, search for `SMA Data Manager` and install it.
 3. Restart Home Assistant
 4. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "SMA Data manager"
@@ -37,9 +33,9 @@ _Integration to integrate with the [SMA Data Manager][sma_data_manager]._
 
 # Configuration
 
-Configuration is done using the UI. 
+Configuration is done using the UI.
 You'll be prompted to enter the IP and credentials to the SMA Data Manager.
-After the initial setup, you'll have to configure the channels you want to use in the integration options. 
+After the initial setup, you'll have to configure the channels you want to use in the integration options.
 To find available channels, take a look in the "Instantaneous Values" menu of the SMA Data Manager web interface.
 
 
@@ -50,20 +46,20 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 # Notice
 
-This integration is not affiliated with SMA Solar Technology AG in any way. 
+This integration is not affiliated with SMA Solar Technology AG in any way.
 The SMA and SMA Data Manager names and logos are trademarks of SMA Solar Technology AG.
 Use at your own risk.
 
 ***
 
 [sma_data_manager]: https://www.sma.de/en/products/monitoring-control/data-manager-m
-[commits-shield]: https://img.shields.io/github/commit-activity/y/shadow578/homeassistant_sma_data_manager.svg?style=for-the-badge
-[commits]: https://github.com/shadow578/homeassistant_sma_data_manager/commits/main
+[commits-shield]: https://img.shields.io/github/commit-activity/y/thorsten/homeassistant_sma_data_manager.svg?style=for-the-badge
+[commits]: https://github.com/thorsten/homeassistant_sma_data_manager/commits/main
 [hacs]: https://github.com/hacs/integration
 [hacsbadge]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
-[license-shield]: https://img.shields.io/github/license/shadow578/homeassistant_sma_data_manager.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-%40shadow578-blue.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/thorsten/homeassistant_sma_data_manager.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/badge/maintainer-%40thorsten-blue.svg?style=for-the-badge
 
 
-[releases-shield]: https://img.shields.io/github/release/shadow578/homeassistant_sma_data_manager.svg?style=for-the-badge
-[releases]: https://github.com/shadow578/homeassistant_sma_data_manager/releases
+[releases-shield]: https://img.shields.io/github/release/thorsten/homeassistant_sma_data_manager.svg?style=for-the-badge
+[releases]: https://github.com/thorsten/homeassistant_sma_data_manager/releases
